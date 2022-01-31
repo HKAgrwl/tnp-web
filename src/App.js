@@ -11,15 +11,17 @@ import { Routes, Route, Link } from "react-router-dom";
 import CreateInt from './Profile_Comps/CreateInt';
 import Sidebar from './Profile_Comps/Sidebar';
 import MyPosts from './Profile_Comps/MyPosts';
+import Tags from './Profile_Comps/Tags';
 
 function App() {
   return (
       <>
       <Navbar/>
       <Sidebar/>
-      {/* <Profile_Page/> */}
+      {/* <Tags/> */}
+      <Profile_Page/>
       {/* <LoginPage/> */}
-      <CreateInt/>
+      {/* <CreateInt/> */}
       {/* <MyPosts/> */}
       
       </>

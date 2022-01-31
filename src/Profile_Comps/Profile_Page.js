@@ -4,8 +4,8 @@ import Avatar from '@mui/material/Avatar';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
-import './Profile_Comps/Profile.css';
-import './Profile_Comps/Sidebar.css'
+import './Profile.css';
+import './Sidebar.css'
 import TextField from '@mui/material/TextField';
 import { useState } from 'react';
 import Button from '@mui/material/Button';
@@ -13,7 +13,7 @@ import Button from '@mui/material/Button';
 export default function Profile_Page() {
     return <div>
         <br></br><br />
-        <Box sx={{ marginTop: '0px', border: '2px solid black', height: '100vh', width: '78.5vw', marginLeft: '309px', padding: '12px 50px', backgroundColor: 'white' ,boxShadow:'-4px 5px 5px black' ,borderRadius:'5px' }}>
+        <Box sx={{ marginTop: '-46px', border: '2px solid black', height: '100vh', width: '78.5vw', marginLeft: '309px', padding: '12px 50px', backgroundColor: 'white' ,boxShadow:'-4px 5px 5px black' ,borderRadius:'5px' }}>
             <h5>Profile</h5>
             <p>Update your profile here</p>
             <Divider variant="middle" />
