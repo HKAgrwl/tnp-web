@@ -32,7 +32,7 @@ export default function CreateInt() {
     };
     return <div>
         <Tags  sx={{ borderRadius:'5px',zIndex:'450',position:'absolute',left:'700px',top:'160px',width:'30%' }}/>
-        <Box sx={{ marginTop: '0px', border: '2px solid black', height: '100vh', width: '78.5vw', marginLeft: '309px', padding: '12px 50px', backgroundColor: 'white', boxShadow: '-4px 5px 5px black', borderRadius: '5px' }}>
+        <Box sx={{ marginTop: '0px', height: '90vh', width: '100vw', padding: '12px 50px', backgroundColor: 'white', borderRadius: '5px' }}>
             <h3>Create Interview</h3>
             <Button onClick={handleChange} sx={{ position: 'absolute', marginTop: '63px' }} variant="contained" color="success">
                 Create Interview +

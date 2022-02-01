@@ -1,25 +1,27 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,regular,500,700,900);
 *{
-    margin: 0px;
+    margin: 0;
     padding: 0;
     list-style: none;
 }
-html,body{
+/* html,body{
     height: 100%;
-}
+} */
 /* body{
-    background-color:whitesmoke;
+    background-color: #546377;
 } */
 .side-menu{
+    z-index: 100;
     width: 300px;
-    height: 100vh;
+    height:800px;
     padding: 50px 0;
     box-sizing: border-box;
-    background-image: linear-gradient(0deg,#39e018,#87cefa);
+    background-image: linear-gradient(0deg,#e02fb4,#e4e124);
     display: flex;
     flex-flow: column nowrap;
     box-shadow: 5px 0px 10px rgba(17, 26, 41, 0.6);
     position: absolute;
+    top: 58px;
 
     transition: .5s;
     /* transform: translateX(0); */
