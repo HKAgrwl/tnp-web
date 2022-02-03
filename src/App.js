@@ -11,20 +11,21 @@ import Tags from './Profile_Comps/Tags';
 import Dashboard from './Dashboard';
 import Profile2 from './Profile_Comps/Profile2';
 import Sidebar2 from './Profile_Comps/Sidebar2';
+import ForumPage from './Forum/ForumPage';
+
+
 
 function App() {
   return (
       <>
       <Navbar/>
-      {/* <Sidebar/> */}
-      {/* <Tags/> */}
       {/* <LoginPage/> */}
       {/* <CreateInt/> */}
       {/* <MyPosts/> */}
       {/* <Dashboard/> */}
       <Profile2/>
       <Sidebar2/>
-      
+      {/* <ForumPage/> */}
       </>
   );
 }
