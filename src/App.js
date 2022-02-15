@@ -12,20 +12,23 @@ import Dashboard from './Dashboard';
 import Profile2 from './Profile_Comps/Profile2';
 import Sidebar2 from './Profile_Comps/Sidebar2';
 import ForumPage from './Forum/ForumPage';
+import SignUp from './SignUp';
+import './SignUp.css';
 
 
 
 function App() {
   return (
       <>
-      <Navbar/>
+      {/* <Navbar/> */}
       {/* <LoginPage/> */}
       {/* <CreateInt/> */}
       {/* <MyPosts/> */}
       {/* <Dashboard/> */}
-      <Profile2/>
-      <Sidebar2/>
+      {/* <Profile2/> */}
+      {/* <Sidebar2/> */}
       {/* <ForumPage/> */}
+      <SignUp/>
       </>
   );
 }
