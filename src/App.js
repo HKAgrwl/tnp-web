@@ -14,6 +14,9 @@ import Sidebar2 from './Profile_Comps/Sidebar2';
 import ForumPage from './Forum/ForumPage';
 import SignUp from './SignUp';
 import './SignUp.css';
+import ViewPost from './ViewPost';
+import Footer from './Components/Footer';
+import './Components/Footer.css';
 
 
 
@@ -27,8 +30,10 @@ function App() {
       {/* <Dashboard/> */}
       {/* <Profile2/> */}
       {/* <Sidebar2/> */}
-      {/* <ForumPage/> */}
-      <SignUp/>
+      <ForumPage/>
+      {/* <SignUp/> */}
+      {/* <ViewPost/> */}
+      <Footer/>
       </>
   );
 }
