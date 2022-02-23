@@ -1,5 +1,16 @@
 import React from 'react'
+import tags from './Profile_Comps/Tags'
+import Chip from '@mui/material/Chip';
+import Autocomplete from '@mui/material/Autocomplete';
+import TextField from '@mui/material/TextField';
 
+const skills = [
+    {title: 'Android'},
+    {title: 'Machine Learning'},
+    {title: 'FrontEnd'},
+    {title: 'BackEnd'},
+    {title: 'Web3'}
+];
 
 export default function () {
     return (
@@ -45,7 +56,24 @@ export default function () {
                                     </div>
                                 </div>
                                 <div class="form-row">
-                                    <input type="text" name="skills" class="skills" id="skills" placeholder="Your Skills" required="" />
+                                    <Autocomplete sx={{row:'2'}}
+                                        multiple
+                                        id="tags-filled"
+                                        options={skills.map((option) => option.title)}
+                                        freeSolo
+                                        renderTags={(value, getTagProps) =>
+                                            value.map((option, index) => (
+                                                <Chip variant="outlined" label={option} {...getTagProps({ index })} />
+                                            ))
+                                        }
+                                        renderInput={(params) => (
+                                            <TextField
+                                                {...params}
+                                                variant="filled"
+                                                label="Your Skills"
+                                            />
+                                        )}
+                                    />
                                 </div>
                             </div>
                             <div class="form-right">
@@ -71,7 +99,7 @@ export default function () {
                                 </div>
                                 <div class="form-row">
                                     <input type="text" name="your_email" id="add_details" class="input-text" required=""
-                                         placeholder="Additional Details" />
+                                        placeholder="Additional Details" />
                                 </div>
                                 {/* <div class="form-checkbox">
                                     <label class="container">
