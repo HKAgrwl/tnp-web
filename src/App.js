@@ -14,25 +14,28 @@ import Sidebar2 from './Profile_Comps/Sidebar2';
 import ForumPage from './Forum/ForumPage';
 import SignUp from './SignUp';
 import './SignUp.css';
-import ViewPost from './ViewPost';
 import Footer from './Components/Footer';
 import './Components/Footer.css';
+import { useState } from 'react';
+import ViewInt from './Profile_Comps/ViewInt';
+import ViewQues from './Forum/ViewQues';
 
 
 
 function App() {
   return (
       <>
-      {/* <Navbar/> */}
+      <Navbar/>
       {/* <LoginPage/> */}
       {/* <CreateInt/> */}
       {/* <MyPosts/> */}
       {/* <Dashboard/> */}
       {/* <Profile2/> */}
       {/* <Sidebar2/> */}
-      <ForumPage/>
+      {/* <ForumPage/> */}
       {/* <SignUp/> */}
-      {/* <ViewPost/> */}
+      {/* <ViewInt/> */}
+      <ViewQues/>
       <Footer/>
       </>
   );

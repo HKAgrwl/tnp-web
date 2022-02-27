@@ -1,6 +1,6 @@
-*, *:before, *:after {
+/* *, *:before, *:after {
     box-sizing: border-box;
-  }
+  } */
   
   .footer {
     display: flex;
@@ -9,6 +9,7 @@
     color: #2f2f2f;
     background-color: rgb(247, 243, 243);
     border-top: 1px solid #e5e5e5;
+    position: relative;
   }
   
   .footer > * {

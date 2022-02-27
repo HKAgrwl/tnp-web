@@ -8,7 +8,7 @@ export default function LoginPage() {
     return <div>
         {/* Form */}
         <main class="form-signin">
-            <form>
+            <form id='loginform'>
                 <img class="mb-4" src={logo} alt="" width="100%" height="30%"/>
                     <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 

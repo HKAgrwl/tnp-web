@@ -7,7 +7,7 @@ import Stack from '@mui/material/Stack';
 
 export default function Tags() {
     return <div>
-        <Stack spacing={3} sx={{ borderRadius:'5px',zIndex:'450',position:'absolute',left:'690px',top:'160px',width:'30%' }}>
+        <Stack spacing={3} sx={{ borderRadius:'5px',zIndex:'450',position:'absolute',left:'690px',top:'90px',width:'30%' }}>
             <Autocomplete
                 multiple
                 id="tags-filled"

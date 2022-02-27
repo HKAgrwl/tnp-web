@@ -1,6 +1,5 @@
 body{
     height: 800px;
-    background-image: '.Components/Campus1.jpg';
 }
 .form-signin {
     width: 100%;
@@ -17,7 +16,7 @@ body{
 main {
     display: block;
 }   
-form{
+#loginform{
     box-shadow: 7px 5px 5px rgb(95, 93, 93);
     background-color: aliceblue;
     position: absolute;
@@ -38,10 +37,9 @@ form{
 }
 
 @media (max-width:800px) {
-    form{
-        width: 80vw;
-        left: 40px;
-        right: auto;
+    #loginform{
+        width: 60vw;
+        margin-left: -15vw;
     }
     body{
         width: fit-content;
