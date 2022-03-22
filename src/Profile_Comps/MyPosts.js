@@ -4,7 +4,7 @@ import Box from '@mui/material/Box';
 
 export default function MyPosts() {
   return <div>
-    <Box id='MyPosts' sx={{ marginTop: '0px', height: '90vh', width: '100vw', padding: '12px 50px', backgroundColor: 'white', borderRadius: '5px' }}>
+    <Box id='MyPosts' sx={{ marginTop: '65px', height: '90vh', width: '100vw', padding: '12px 50px', backgroundColor: 'white', borderRadius: '5px' }}>
       <h3>Your Posts</h3>
       <div className="album py-5 bg-light">
         <div className="container">

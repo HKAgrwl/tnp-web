@@ -28,14 +28,14 @@ function App() {
       <Navbar/>
       {/* <LoginPage/> */}
       {/* <CreateInt/> */}
-      {/* <MyPosts/> */}
+      <MyPosts/>
       {/* <Dashboard/> */}
       {/* <Profile2/> */}
       <Sidebar2/>
       {/* <ForumPage/> */}
       {/* <SignUp/> */}
       {/* <ViewInt/> */}
-      <ViewQues/>
+      {/* <ViewQues/> */}
       <Footer/>
       </>
   );
