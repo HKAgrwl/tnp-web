@@ -23,8 +23,11 @@ export default function CreateInt() {
     const [checked, setChecked] = React.useState(false);
 
     const inputTextHandler=(e)=>{
-        setInputAns(e.target.value)
         setInputQues(e.target.value)
+    }
+
+    const inputAnsHandler=(e)=>{
+        setInputAns(e.target.value)
     }
 
     const saveQuesHandler =()=>{
@@ -46,7 +49,7 @@ export default function CreateInt() {
     ];
 
     const tags = (
-        <Stack spacing={3} sx={{ borderRadius: '5px', zIndex: '450', position: 'absolute', marginLeft: '400px',  width: '50%',marginTop:'-105px' }}>
+        <Stack spacing={3} sx={{ borderRadius: '5px',position: 'absolute', marginLeft: '400px',  width: '50%',marginTop:'-105px' }}>
             <Autocomplete
                 multiple
                 id="tags-filled"
@@ -96,7 +99,7 @@ export default function CreateInt() {
             label="Write the answer here"
             multiline
             rows={4}
-            onChange={inputTextHandler}
+            onChange={inputAnsHandler}
             value={inputAns}
         />
     );
@@ -113,7 +116,7 @@ export default function CreateInt() {
         setChecked((prev) => !prev);
     };
     return <div>
-        <div style={{ height: '110vh', width: '100vw', padding: '50px', backgroundColor: 'white', borderRadius: '5px' }}>
+        <div style={{ height: '110vh', width: '100vw', padding: '50px', backgroundColor: 'white', borderRadius: '5px', marginTop:'45px' }}>
             <h3>Create Interview</h3>
             <Button onClick={handleChange} sx={{ position: 'absolute', marginTop: '63px' }} variant="contained" color="success">
                 Create Interview +

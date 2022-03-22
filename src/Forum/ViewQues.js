@@ -18,6 +18,7 @@ import SendIcon from '@mui/icons-material/Send';
 import Divider from '@mui/material/Divider';
 import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 import ThumbDownAltIcon from '@mui/icons-material/ThumbDownAlt';
+import growthIcon from '../Components/growth.png';
 
 export default function ViewQues() {
 
@@ -52,8 +53,9 @@ export default function ViewQues() {
                 </div>
             </div>
             <Divider variant="middle" />
-            <div className="comment-ans">
-                <div className="comment-icons" style={{ border: '1px solid brown', height: '20%', width: '100%', backgroundColor: 'rgb(248, 246, 140)', borderRadius: '15px' }}>
+            <span>
+            <div className="comment-ans" style={{marginLeft:'13.5%'}} >
+                <div className="comment-icons" style={{ height: '25%', width: '100%', borderRadius: '15px' }}>
                     <span style={{ marginRight: '0.8%' }}> <FormatBoldIcon /> </span>
                     <span style={{ marginRight: '0.8%' }}> <FormatItalicIcon /> </span>
                     <span style={{ marginRight: '0.8%' }}> <AddLinkIcon /> </span>
@@ -89,7 +91,9 @@ export default function ViewQues() {
                     </Button>
                 </Stack>
 
-            </div>
+            </div></span>
+            <img src={growthIcon} alt="" style={{width:'250px', marginLeft:'1150px', marginTop:'-240px'}} />
+            
         </div >
     )
 }

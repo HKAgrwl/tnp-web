@@ -6,7 +6,7 @@ import InterviewInfo from './InterviewInfo';
 export default function ViewInt() {
     return (
         <div>
-            <div className="view_int_header">
+            <div className="view_int_header" style={{marginTop:'55px'}}>
                 <span>
                     <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg"
                         sx={{ width:'80px',height:'80px' }} />

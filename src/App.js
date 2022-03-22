@@ -31,7 +31,7 @@ function App() {
       {/* <MyPosts/> */}
       {/* <Dashboard/> */}
       {/* <Profile2/> */}
-      {/* <Sidebar2/> */}
+      <Sidebar2/>
       {/* <ForumPage/> */}
       {/* <SignUp/> */}
       {/* <ViewInt/> */}
